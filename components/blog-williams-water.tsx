@@ -10,10 +10,10 @@ const BlogWilliamsWater: NextPage<BlogWilliamsWaterType> = ({
 }) => {
   return (
     <main
-      className={`flex-1 shadow-[0px_8px_26px_1px_rgba(0,_0,_0,_0.5)] bg-white border-black border-[1px] border-solid box-border overflow-hidden flex flex-col items-end justify-start py-[78px] px-0 gap-[106px] max-w-full text-left text-xs text-darkslategray font-montserrat lg:pt-[33px] lg:pb-[33px] lg:box-border mq450:gap-[26px] mq450:pt-5 mq450:pb-5 mq450:box-border mq750:gap-[53px] mq1050:pt-[21px] mq1050:pb-[21px] mq1050:box-border ${className}`}
+      className={`flex-1 bg-whiteoverflow-hidden flex flex-col items-end justify-start py-[78px] px-0 gap-[106px] max-w-full text-left text-xs text-darkslategray font-montserrat lg:pt-[33px] lg:pb-[33px] lg:box-border mq450:gap-[26px] mq450:pt-5 mq450:pb-5 mq450:box-border mq750:gap-[53px] mq1050:pt-[21px] mq1050:pb-[21px] mq1050:box-border ${className}`}
     >
       <section className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
-        <div className="w-[1200px] flex flex-col items-start justify-start max-w-full">
+        <div className="h-[400px] flex flex-col items-start justify-start max-w-full">
           <img
             className="self-stretch relative max-w-full overflow-hidden max-h-full object-cover"
             loading="lazy"
@@ -22,34 +22,6 @@ const BlogWilliamsWater: NextPage<BlogWilliamsWaterType> = ({
           />
         </div>
       </section>
-      <div className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
-        <div className="w-[1173.3px] flex flex-row items-start justify-start gap-[27px] max-w-full mq1050:hidden">
-          <div className="h-6 w-[193.6px] flex flex-col items-start justify-start pt-0 px-0 pb-[7.7px] box-border gap-[7.7px] text-sm text-palevioletred">
-            <div className="self-stretch flex flex-row items-start justify-start py-0 pl-[77px] pr-[71px]">
-              <b className="flex-1 relative whitespace-nowrap">All</b>
-            </div>
-            <div className="self-stretch h-px relative border-palevioletred border-t-[1px] border-solid box-border" />
-          </div>
-          <div className="w-[138.9px] relative font-semibold inline-block shrink-0 whitespace-nowrap">
-            Septic Blogs
-          </div>
-          <div className="relative font-semibold whitespace-nowrap">
-            Water Treatment Blogs
-          </div>
-          <div className="flex-1 relative font-semibold whitespace-nowrap">
-            Plumbing Solutions Blogs
-          </div>
-          <div className="w-[107.1px] relative font-semibold inline-block shrink-0">
-            Articles
-          </div>
-          <div className="w-[123px] relative font-semibold inline-block shrink-0">
-            Tutorials
-          </div>
-          <div className="w-[79.7px] relative font-semibold inline-block shrink-0">
-            News
-          </div>
-        </div>
-      </div>
       <section className="self-stretch flex flex-col items-center justify-start py-0 px-5 box-border gap-6 max-w-full text-left text-5xl text-darkslategray font-montserrat">
         <Section />
         <div className="w-[1220px] hidden flex-col items-start justify-start gap-1 max-w-full">
@@ -64,7 +36,7 @@ const BlogWilliamsWater: NextPage<BlogWilliamsWaterType> = ({
             </b>
           </div>
           <div className="self-stretch flex flex-row items-center justify-center p-2.5 box-border max-w-full">
-            <div className="h-[1286px] flex-1 relative inline-block max-w-full mq450:text-lgi">
+            <div className="flex-1 relative inline-block max-w-full mq450:text-lgi">
               <p className="[margin-block-start:0] [margin-block-end:8px]">
                 <span className="font-medium font-montserrat">
                   When wastewater enters the septic tank, the solid materials
