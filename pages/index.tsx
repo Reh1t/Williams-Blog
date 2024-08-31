@@ -14,6 +14,7 @@ const BlogWilliams: NextPage = () => {
         <FrameComponent
           rectangle124="/rectangle-124@2x.png"
           mAY262024="MAY 26, 2024"
+          url="/septic-system"
           understandingSepticSystems="Understanding Septic Systems: A Beginner’s Guide"
           ifYouveRecentlyMovedIntoAHom="If you’ve recently moved into a home with a septic system or are considering installing one, understanding how these systems work is essential. This guide will provide you with a comprehensive overview of septic systems, their components, and how to maintain them properly. "
         />
@@ -25,6 +26,7 @@ const BlogWilliams: NextPage = () => {
           understandingSepticSystems="The Benefits of UV Water Treatment: A Comprehensive Guide"
           propFontFamily1="Montserrat"
           propAlignSelf="stretch"
+          url="/uv-water-treatment"
           ifYouveRecentlyMovedIntoAHom="Water quality is a critical concern for many households and businesses. One of the most effective and environmentally friendly methods for ensuring safe drinking water is UV (ultraviolet) water treatment. This guide will explore how UV water treatment works, its benefits, and why it might be the right choice for your water purification needs."
         />
         <FrameComponent
@@ -35,6 +37,7 @@ const BlogWilliams: NextPage = () => {
           understandingSepticSystems="Top 10 Plumbing Tips Every Homeowner Should Know"
           propFontFamily1="Montserrat"
           propAlignSelf="stretch"
+          url="/plumbing-tips"
           ifYouveRecentlyMovedIntoAHom="Proper plumbing maintenance is crucial for ensuring the longevity of your home’s plumbing system and preventing costly repairs. Read on for ten essential plumbing tips that every homeowner should know."
         />
       </section>

@@ -8,6 +8,7 @@ export type FrameComponentType = {
   mAY262024?: string;
   understandingSepticSystems?: string;
   ifYouveRecentlyMovedIntoAHom?: string;
+  url?: string;
 
   /** Style props */
   propFontFamily?: CSSProperties["fontFamily"];
@@ -26,6 +27,7 @@ const FrameComponent: NextPage<FrameComponentType> = ({
   propFontFamily1,
   propAlignSelf,
   ifYouveRecentlyMovedIntoAHom,
+  url,
 }) => {
   const mAY262024Style: CSSProperties = useMemo(() => {
     return {
@@ -44,14 +46,14 @@ const FrameComponent: NextPage<FrameComponentType> = ({
   const router = useRouter();
 
   const onREADMORETextClick = useCallback(() => {
-    router.push("/component");
+    router.push("url");
   }, [router]);
 
   return (
     <div
-      className={`flex-1 flex flex-col items-start justify-start gap-6 max-w-full shrink-0 text-left text-sm text-darkslategray font-inter ${className}`}
+      className={`flex-1 flex flex-col items-start justify-start gap-6 max-w-full min-w-44 shrink-0 text-left text-sm text-darkslategray font-inter ${className}`}
     >
-      <div className="self-stretch h-[415.5px] flex flex-col items-start justify-start">
+      <div className="self-stretch h-[350px] flex flex-col items-start justify-start">
         <img
           className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
           loading="lazy"
