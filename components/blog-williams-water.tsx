@@ -10,7 +10,7 @@ const BlogWilliamsWater: NextPage<BlogWilliamsWaterType> = ({
 }) => {
   return (
     <main
-      className={`flex-1 bg-whiteoverflow-hidden flex flex-col items-end justify-start py-[78px] px-0 gap-[106px] max-w-full text-left text-xs text-darkslategray font-montserrat lg:pt-[33px] lg:pb-[33px] lg:box-border mq450:gap-[26px] mq450:pt-5 mq450:pb-5 mq450:box-border mq750:gap-[53px] mq1050:pt-[21px] mq1050:pb-[21px] mq1050:box-border ${className}`}
+      className={`flex-1 bg-whiteoverflow-hidden flex flex-col items-end justify-start py-[78px] px-0 gap-[106px] max-w-full text-left text-LGI text-darkslategray font-montserrat lg:pt-[33px] lg:pb-[33px] lg:box-border mq450:gap-[26px] mq450:pt-5 mq450:pb-5 mq450:box-border mq750:gap-[53px] mq1050:pt-[21px] mq1050:pb-[21px] mq1050:box-border ${className}`}
     >
       <section className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
         <div className="h-[400px] flex flex-col items-start justify-start max-w-full">
@@ -22,7 +22,7 @@ const BlogWilliamsWater: NextPage<BlogWilliamsWaterType> = ({
           />
         </div>
       </section>
-      <section className="self-stretch flex flex-col items-center justify-start py-0 px-5 box-border gap-6 max-w-full text-left text-5xl text-darkslategray font-montserrat">
+      <section className="self-stretch flex flex-col items-center justify-start py-0 px-5 box-border gap-6 max-w-full text-left text-lgi text-darkslategray font-montserrat">
         <Section />
         <div className="w-[1220px] hidden flex-col items-start justify-start gap-1 max-w-full">
           <div className="w-[184px] hidden flex-row items-center justify-center py-2.5 px-[9px] box-border font-inter">
@@ -35,7 +35,7 @@ const BlogWilliamsWater: NextPage<BlogWilliamsWaterType> = ({
               How a Septic System Works
             </b>
           </div>
-          <div className="self-stretch flex flex-row items-center justify-center p-2.5 box-border max-w-full">
+          <div className="self-stretch flex flex-row items-center text-xl justify-center p-2.5 box-border max-w-full">
             <div className="flex-1 relative inline-block max-w-full mq450:text-lgi">
               <p className="[margin-block-start:0] [margin-block-end:8px]">
                 <span className="font-medium font-montserrat">

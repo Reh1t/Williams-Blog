@@ -2,8 +2,8 @@ import type { NextPage } from "next";
 
 const SepticSystem: NextPage = () => {
   return (
-    <div className="w-full relative flex flex-row items-start justify-start leading-[normal] tracking-[normal]">
-      <main className="flex-1 shadow-[0px_8px_26px_1px_rgba(0,_0,_0,_0.5)] bg-white border-black border-[1px] border-solid box-border overflow-hidden flex flex-col items-end justify-start py-[78px] px-0 gap-[106px] max-w-full text-left text-xs text-darkslategray font-montserrat lg:pt-[33px] lg:pb-[33px] lg:box-border mq450:gap-[26px] mq450:pt-5 mq450:pb-5 mq450:box-border mq750:gap-[53px] mq1050:pt-[21px] mq1050:pb-[21px] mq1050:box-border">
+    <div className="w-full relative flex flex-row items-center justify-center leading-[normal] tracking-[normal]">
+      <main className="flex-1c overflow-hidden flex flex-col items-end justify-start py-[78px] px-0 gap-[106px] max-w-full text-left text-sm text-darkslategray font-montserrat lg:pt-[33px] lg:pb-[33px] lg:box-border mq450:gap-[26px] mq450:pt-5 mq450:pb-5 mq450:box-border mq750:gap-[53px] mq1050:pt-[21px] mq1050:pb-[21px] mq1050:box-border">
         <section className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
           <div className="h-[400px] flex flex-col items-start justify-start max-w-full">
             <img
@@ -15,14 +15,14 @@ const SepticSystem: NextPage = () => {
           </div>
         </section>
         
-        <section className="self-stretch flex flex-col items-center justify-start py-0 px-5 box-border gap-6 max-w-full text-left text-5xl text-darkslategray font-montserrat">
+        <section className="self-stretch flex flex-col items-center justify-start py-0 px-5 box-border gap-6 max-w-full text-left text-lgi text-darkslategray font-montserrat">
           <div className="w-[1220px] flex flex-col items-start justify-start gap-1 max-w-full">
             <div className="flex flex-row items-center justify-center py-2.5 px-[9px] font-inter">
               <div className="relative font-semibold mq450:text-lgi">
                 MAY 26, 2024
               </div>
             </div>
-            <div className="self-stretch flex flex-row items-center justify-start p-2.5 box-border max-w-full text-23xl text-darkblue">
+            <div className="self-stretch flex flex-row items-center justify-center p-2.5 box-border max-w-full text-23xl text-darkblue">
               <h1 className="m-0 flex-1 relative text-inherit font-bold font-[inherit] inline-block max-w-full mq450:text-6xl mq1050:text-15xl">
                 Understanding Septic Systems: A Beginner’s Guide
               </h1>

@@ -7,7 +7,7 @@ export type SectionType = {
 const Section: NextPage<SectionType> = ({ className = "" }) => {
   return (
     <div
-      className={`w-[1220px] flex flex-col items-start justify-start gap-1 max-w-full text-left text-5xl text-darkslategray font-montserrat ${className}`}
+      className={`w-[1220px] flex flex-col items-start justify-start gap-1 max-w-full text-left text-lgi text-darkslategray font-montserrat ${className}`}
     >
       <div className="flex flex-row items-center justify-center p-2.5 font-inter">
         <div className="relative font-semibold mq450:text-lgi">FEB 9, 2021</div>
@@ -16,7 +16,7 @@ const Section: NextPage<SectionType> = ({ className = "" }) => {
         <h1 className="m-0 relative text-inherit font-bold font-[inherit] mq450:text-6xl mq1050:text-15xl">{`Top 10 Plumbing Tips Every Homeowner Should Know `}</h1>
       </div>
       <div className="self-stretch flex flex-row items-center justify-center p-2.5 box-border max-w-full">
-        <h1 className="m-0 flex-1 relative text-inherit font-medium font-[inherit] inline-block min-h-[2332px] max-w-full mq450:text-lgi">
+        <h1 className="m-0 flex-1 relative text-inherit font-medium font-[inherit] inline-block max-w-full mq450:text-lgi">
           <p className="[margin-block-start:0] [margin-block-end:8px]">
             Proper plumbing maintenance is crucial for ensuring the longevity of
             your home’s plumbing system and preventing costly repairs. Here are
