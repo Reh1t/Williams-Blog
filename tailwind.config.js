@@ -96,7 +96,7 @@ module.exports = {
         "work-sans": "'Work Sans'",
         "dm-sans": "'DM Sans'",
         "small-text": "Inter",
-        ledger: "Ledger",
+        ledger: ["Ledger"],
         button: "Manrope",
         "form-field": "'DM Sans'",
         "header-1": "'Work Sans'",

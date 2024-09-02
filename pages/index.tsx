@@ -10,7 +10,7 @@ const BlogWilliams: NextPage = () => {
           Connecting You with Knowledge.
         </h1>
       </section>
-      <section className="self-stretch h-[659.5px] flex flex-row items-start justify-center flex-wrap content-start pt-0 px-px pb-0 box-border gap-x-14 gap-y-[54px] max-w-full mq725:gap-[27px]">
+      <section className="self-stretch flex flex-row items-start justify-center flex-wrap content-start pt-0 px-px pb-0 box-border gap-x-14 gap-y-[54px] max-w-full mq725:gap-[27px]">
         <FrameComponent
           photo="/rectangle-124@2x.png"
           dateOfPublish="MAY 26, 2024"
