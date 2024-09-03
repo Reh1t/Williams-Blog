@@ -148,14 +148,6 @@ const Header1: NextPage<Header1Type> = ({
             isOpen ? "lg:block" : "lg:hidden"
           } lg:block`}
         >
-          <div className="flex flex-row items-center justify-center py-[7px] px-4 font-bold text-black cursor-pointer">
-            <a
-              className="relative leading-[26px] text-[inherit] inline-block min-w-[39px] cursor-pointer"
-              onClick={onHomeClick}
-            >
-              Home
-            </a>
-          </div>
           <div
             className="relative"
             onMouseEnter={!isOpen ? openDropdown : undefined}
@@ -215,7 +207,14 @@ const Header1: NextPage<Header1Type> = ({
               </div>
             </div>
           </div>
-
+          <div className="flex flex-row items-center justify-center py-[7px] px-4 font-bold text-black cursor-pointer">
+            <a
+              className="relative leading-[26px] text-[inherit] inline-block min-w-[39px] cursor-pointer"
+              onClick={onHomeClick}
+            >
+              Blog
+            </a>
+          </div>
           <button
             className="flex-1 cursor-pointer py-2 px-8 ml-10 bg-green shadow-[0px_8px_16px_rgba(55,_99,_244,_0.15)] rounded-13xl flex-row items-center justify-center whitespace-nowrap border-[1px] border-solid border-mediumslateblue hover:bg-deepskyblue hover:box-border hover:border-[1px] hover:border-solid hover:border-royalblue"
             onClick={onContactButtonClick}
